@@ -1,7 +1,7 @@
 module "infra" {
   source           = "../infrastructure"
   environment_name = "staging-live"
-  asp_size         = "S1"
+  asp_size         = "S2"
   custom_tags = {
     author = "Thorsten"
   }
